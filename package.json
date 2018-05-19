@@ -1,0 +1,19 @@
+{
+  "name": "js_code_conclude",
+  "version": "1.0.0",
+  "description": "js 的一些常用代码归纳",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilss/js_code_conclude.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilss/js_code_conclude/issues"
+  },
+  "homepage": "https://github.com/ilss/js_code_conclude#readme"
+}
