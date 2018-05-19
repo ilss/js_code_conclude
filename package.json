@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/ilss/js_code_conclude/issues"
   },
-  "homepage": "https://github.com/ilss/js_code_conclude#readme"
+  "homepage": "https://github.com/ilss/js_code_conclude#readme",
+  "devDependencies": {
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.1.0"
+  },
+  "eslint": "eslint --format './node_modules/eslint-friendly-formatter/index.js' ./src/* ",
+  "eslint_html": "eslint --format html ./src/* -o ./dist/eslint/index.html",
+  "eslint_markdown": "eslint --format './node_modules/eslint-formatter-markdown/markdown.js' ./src/*  -o ./dist/eslint/index.md"
 }
